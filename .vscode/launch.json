@@ -13,11 +13,11 @@
             "smartStep": true,
             "showAsyncStacks": true,
             "sourceMaps": true,
-            "env": {
-                "NODE_ENV": "local",
-                "IotHubConnectionString": "",
-                "EventHubConsumerGroup": "monitoring"
-            }
+			"env": {
+				"NODE_ENV": "local",
+				"IotHubConnectionString": "HostName=raspi3-monitoring.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=P9yYhI3nKYwlhS0Pb0P6rmUd525L6G0JbSDZpsTf9wU=",
+				"EventHubConsumerGroup": "telConsumerGroup"
+			}
         }
     ]
 }
